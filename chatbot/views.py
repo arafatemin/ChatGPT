@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.utils import timezone
 from .models import *
 
-openai_api_key = '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'
+openai_api_key = 'input_api_key'
 openai.api_key = openai_api_key
 
 
